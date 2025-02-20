@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/abdulsamimmondal/python-app.git'
+                git url:'https://github.com/abdulsamimmondal/python-app.git',branch:'main'
             }
         }
 
