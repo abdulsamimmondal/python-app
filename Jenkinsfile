@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url:'https://github.com/KPkm25/python_pipeline.git', branch:'main'
+                git url:'https://github.com/KPkm25/python_pipeline.git', branch:'master'
             }
         }
         stage('Set up Virtual Environment') {
